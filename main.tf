@@ -18,7 +18,7 @@ resource "azurerm_subnet" "my_subnet" {
     virtual_network_name    =   "vnet_terraform"
     address_prefixes        =   [ "10.0.1.0/24" ]
 }
-resource "azurerm_storage_account" "my_storage-account" {
+resource "azurerm_storage_account" "storage" {
     name                    =   "app23451234"
     resource_group_name     =   "terraform"
     location                =   "centralindia"
