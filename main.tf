@@ -1,4 +1,4 @@
-provider "azurerm " {
+provider "azurerm" {
     features {}
 }
 
@@ -26,3 +26,5 @@ resource "azurerm_storage_account" "my_storage-account" {
     account_replication_type=   "GRS"
 
 }
+
+
