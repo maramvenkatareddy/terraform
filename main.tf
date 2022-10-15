@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "my_terraform" {
-    name                    =  "terraform5"
+    name                    =  "terraform6"
     location                =  "centralindia"
 }

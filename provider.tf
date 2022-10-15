@@ -9,7 +9,7 @@ terraform {
         resource_group_name  = "tfstate"
         storage_account_name = "adityaterraformbackend"
         container_name       = "terraformstate"
-        key                  = "terraform1.tfstate"
+        key                  = "terraform2.tfstate"
     }
 
 }
