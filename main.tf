@@ -3,9 +3,10 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "my_terraform" {
-    name                    =  "terraform1"
+    name                    =  "terraform5"
     location                =  "centralindia"
 }
+/*
 resource "azurerm_virtual_network" "my_vnet" {
     name                    =   "vnet_terraform"
     resource_group_name     =   "terraform1" 
@@ -28,3 +29,4 @@ resource "azurerm_storage_account" "storage" {
 }
 
 
+*/
